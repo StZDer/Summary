@@ -1,0 +1,53 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0px;
+  margin-top: 40px;
+  padding: 0px;
+  background-color: #ececec;
+  font-style: italic;
+}
+.about {
+  display: flex;
+}
+.row {
+  color: #0c172d;
+  position: flex;
+}
+.about-text {
+  text-align: left;
+  color: #0c172d;
+  line-height: 140%;
+  /*margin: auto;  отцентровало по середине */
+}
+.about img {
+  margin-left: 0px;
+  margin-right: 10px;
+}
+.line {
+  border-bottom: 4px solid #0c172d;
+}
+.about-text h1 {
+  font-size: 50px;
+}
+.contacts {
+  background: #314274;
+  color: white;
+  text-align: center;
+}
+.contacts a {
+  color: white;
+}
+
+.contacts img {
+  width: 20px;
+}
+td {
+  padding: 10px; /* Поля вокруг текста */
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #ececec;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
